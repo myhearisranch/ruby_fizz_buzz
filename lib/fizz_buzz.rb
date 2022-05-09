@@ -1,13 +1,12 @@
 def fizz_buzz(number)
   # 実装してください
   if number % 15 == 0
-     'Fizz Buzz'
+    'Fizz Buzz'
   elsif number % 3 == 0
-     'Fizz'
+    'Fizz'
   elsif number % 5 == 0
-     'Buzz'
+    'Buzz'
   else
-     number.to_s
+    number.to_s
   end
 end
-
